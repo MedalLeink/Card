@@ -24,7 +24,6 @@ body {
     background-color: #fff;
     border: 2px solid black;
     border-radius: 32px;
-    height: 50vh;
     display: flex;
     margin-top: 150px;
 }
@@ -147,3 +146,26 @@ hr {
     background-color: hsl(244, 62%, 40%);
 }
 
+.btn {
+    margin: 30px 0 24px 0;
+}
+
+.btn input {
+    background-color: #C5FF89;
+    border: 2px solid black;
+    border-radius: 32px;
+    width: 390px;
+    font-size: 16px;
+    font-weight: 700;
+    height: 46px;
+    cursor: pointer;
+}
+
+.btn input:hover {
+    background-color: #7b9e57;
+    transition: all 3s linear;
+}
+
+.btn p {
+    
+}
