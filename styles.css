@@ -81,11 +81,12 @@ hr {
     background-color: rgb(241, 206, 241);
     margin: 10px;
     align-content: center;
+    cursor: pointer;
 }
 
 .cards .two_pack,
 .cards .three_pack {
-    background-color: rgb(241, 206, 241, 0.4);
+    background-color: rgb(241, 206, 241, 40%);
     border: none;
 }
 
@@ -123,3 +124,9 @@ hr {
 .cards .ten_dollars {
     margin-left: 295px;
 }
+
+.cards .five_dollars:hover,
+.cards .ten_dollars:hover {
+    background-color: hsl(244, 62%, 40%);
+}
+
