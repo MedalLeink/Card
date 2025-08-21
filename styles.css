@@ -1,212 +1,212 @@
-@import url('https://fonts.googleapis.com/css2?family=Hedvig+Letters+Serif:opsz@12..24&display=swap');
+@import url("https://fonts.googleapis.com/css2?family=Hedvig+Letters+Serif:opsz@12..24&display=swap");
 
 * {
-    padding: 0;
-    margin: 0;
-    box-sizing: border-box;
-    font-family: 'Helvetica', sans-serif;
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  font-family: "Helvetica", sans-serif;
 }
 
 body {
-    background-color: rgb(241, 206, 241);
-    width: 100vw;
+  background-color: rgb(241, 206, 241);
+  width: 100vw;
 }
 
 .container {
-    display: flex;
-    /* align-items: center; */
-    justify-content: center;
-    align-content: center;
+  display: flex;
+  /* align-items: center; */
+  justify-content: center;
+  align-content: center;
 }
 
 .container .cover {
-    width: 34vw;
-    background-color: #fff;
-    border: 2px solid black;
-    border-radius: 32px;
-    display: flex;
-    margin: 150px;
+  width: 34vw;
+  background-color: #fff;
+  border: 2px solid black;
+  border-radius: 32px;
+  display: flex;
+  margin: 150px;
 }
 
 .container .inner_content {
-    margin: 45px 43px;
+  margin: 45px 43px;
 }
 
-.stars{
-    font-size: 18px;
-    font-weight: 900;
+.stars {
+  font-size: 18px;
+  font-weight: 900;
 }
 
 .stars::before {
-    content: "★★★★★";
-    font-family: 'boxicons';
-    font-size: 1rem;
-    color: gold;
+  content: "★★★★★";
+  font-family: "boxicons";
+  font-size: 1rem;
+  color: gold;
 }
 
 hr {
-    width: 27vw;
-    border: 1.9px solid black;
-    margin-top: 10px;
+  width: 27vw;
+  border: 1.9px solid black;
+  margin-top: 10px;
 }
 
 .inner_content h1 {
-    font-weight: bolder;
-    font-size: 50px;
-    letter-spacing: 1px;
-    margin-top: 20px;
-    line-height: 52px;
-    font-weight: 400;
+  font-weight: bolder;
+  font-size: 50px;
+  letter-spacing: 1px;
+  margin-top: 20px;
+  line-height: 52px;
+  font-weight: 400;
 }
 
 .inner_content p {
-    margin-top: 30px;
+  margin-top: 30px;
 }
 
 .cards {
-    display: flex;
-    flex-wrap: wrap;
-    margin: 20px 0;
+  display: flex;
+  flex-wrap: wrap;
+  margin: 20px 0;
 }
 
 .cards .one_pack,
 .cards .two_pack,
 .cards .three_pack {
-    border: 2px solid black;
-    border-radius: 24px;
-    width: 110px;
-    height: 90px;
-    text-align: center;
-    background-color: rgb(241, 206, 241);
-    margin: 10px;
-    align-content: center;
-    cursor: pointer;
+  border: 2px solid black;
+  border-radius: 24px;
+  width: 110px;
+  height: 90px;
+  text-align: center;
+  background-color: rgb(241, 206, 241);
+  margin: 10px;
+  align-content: center;
+  cursor: pointer;
 }
 
 .cards .one_pack:hover,
 .cards .two_pack:hover,
 .cards .three_pack:hover {
-    background-color: rgb(202, 172, 202);
-    transition: all 0.5s ease;
+  background-color: rgb(202, 172, 202);
+  transition: all 0.5s ease;
 }
 
 .cards .two_pack,
 .cards .three_pack {
-    background-color: rgb(241, 206, 241, 40%);
-    border: none;
+  background-color: rgb(241, 206, 241, 40%);
+  border: none;
 }
 
 .cards img {
-    width: 50px;
-    transform: skewX(4deg);
+  width: 50px;
+  transform: skewX(4deg);
 }
 
 .cards img:hover {
-    width: 55px;
-    transform: skewX(4deg);
+  width: 55px;
+  transform: skewX(4deg);
 }
 
 .cards img {
-    width: 50px;
-    transform: skewX(4deg);
+  width: 50px;
+  transform: skewX(4deg);
 }
 
 .cards h4 {
-    font-family: Arial, Helvetica, sans-serif;
-    font-weight: 600;
-    font-size: 14px;
+  font-family: Arial, Helvetica, sans-serif;
+  font-weight: 600;
+  font-size: 14px;
 }
 
 .cards h5 {
-    /* font-family: Arial, Helvetica, sans-serif; */
-    font-size: 11px;
-    background-color: #3B31CE;
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: space-between;
-    color: #fff;
-    border-radius: 30px;
-    width: 62px;
-    height: 20px;
-    align-items: center;
-    justify-content: center;
-    margin-top: -18px;
+  /* font-family: Arial, Helvetica, sans-serif; */
+  font-size: 11px;
+  background-color: #3b31ce;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  color: #fff;
+  border-radius: 30px;
+  width: 62px;
+  height: 20px;
+  align-items: center;
+  justify-content: center;
+  margin-top: -18px;
 }
 
 .cards .five_dollars {
-    margin-left: 165px;
+  margin-left: 165px;
 }
 
 .cards .ten_dollars {
-    margin-left: 295px;
+  margin-left: 295px;
 }
 
 .cards .five_dollars:hover,
 .cards .ten_dollars:hover {
-    background-color: hsl(244, 62%, 40%);
+  background-color: hsl(244, 62%, 40%);
 }
 
 .btn {
-    margin: 30px 0 24px 0;
+  margin: 30px 0 24px 0;
 }
 
 .btn input {
-    background-color: #C5FF89;
-    border: 2px solid black;
-    border-radius: 32px;
-    width: 390px;
-    font-size: 16px;
-    font-weight: 700;
-    height: 46px;
-    cursor: pointer;
+  background-color: #c5ff89;
+  border: 2px solid black;
+  border-radius: 32px;
+  width: 390px;
+  font-size: 16px;
+  font-weight: 700;
+  height: 46px;
+  cursor: pointer;
 }
 
 .btn input:hover {
-    background-color: #7b9e57;
-    transition: all 3s linear;
+  background-color: #7b9e57;
+  transition: all 3s linear;
 }
 
 .btn p {
-    font-weight: 600;
-    margin-bottom: 20px;
-    text-align: center;
+  font-weight: 600;
+  margin-bottom: 20px;
+  text-align: center;
 }
 
 .btn .berry {
-    font-weight: 500;
+  font-weight: 500;
 }
 
 .btn_img {
-    display: grid;
-    grid-template-columns: repeat(2, 1fr);
-    margin: auto;
-    text-align: center;
-    font-size: 13px;
-    column-gap: 130px;
-    row-gap: 20px;
-    list-style: none;
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  margin: auto;
+  text-align: center;
+  font-size: 13px;
+  column-gap: 130px;
+  row-gap: 20px;
+  list-style: none;
 }
 
 .btn_img img {
-    width: 76px;
+  width: 76px;
 }
 
 .links {
-    display: flex;
-    justify-content: center ;
-    gap: 40px;
+  display: flex;
+  justify-content: center;
+  gap: 40px;
 }
 
 .links a {
-    color: #000;
-    text-decoration-thickness: 2px;
-    margin-top: 20px;
-    cursor: pointer;
-    font-size: 16px;
-    font-weight: 600;
-    text-align: center;
+  color: #000;
+  text-decoration-thickness: 2px;
+  margin-top: 20px;
+  cursor: pointer;
+  font-size: 16px;
+  font-weight: 600;
+  text-align: center;
 }
 
 .links a:hover {
-    color: purple;
+  color: purple;
 }
