@@ -25,3 +25,18 @@ body {
     display: flex;
     margin-top: 150px;
 }
+
+.container .inner_content {
+    margin-top: 45px;
+    width: 150px;
+    /* text-decoration: underline; */
+    border-bottom: 2px solid black;
+}
+
+.stars::before {
+    content: "★★★★★";
+    font-family: 'boxicons';
+    font-size: 1rem;
+    color: gold;
+}
+
