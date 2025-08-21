@@ -28,6 +28,7 @@ body {
 
 .container .inner_content {
     margin: 45px 43px;
+}
 
 .stars::before {
     content: "★★★★★";
@@ -38,5 +39,7 @@ body {
 
 hr {
     width: 24vw;
+    border: 1.9px solid black;
+    margin-top: 10px;
 }
 
