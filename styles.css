@@ -84,10 +84,27 @@ hr {
     cursor: pointer;
 }
 
+.cards .one_pack:hover,
+.cards .two_pack:hover,
+.cards .three_pack:hover {
+    background-color: rgb(202, 172, 202);
+    transition: all 0.5s ease;
+}
+
 .cards .two_pack,
 .cards .three_pack {
     background-color: rgb(241, 206, 241, 40%);
     border: none;
+}
+
+.cards img {
+    width: 50px;
+    transform: skewX(4deg);
+}
+
+.cards img:hover {
+    width: 55px;
+    transform: skewX(4deg);
 }
 
 .cards img {
