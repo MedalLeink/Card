@@ -4,7 +4,7 @@
     padding: 0;
     margin: 0;
     box-sizing: border-box;
-    font-family: 'Hedvig Letters Serif', sans-serif;
+    font-family: 'Helvetica', sans-serif;
 }
 
 body {
@@ -20,7 +20,7 @@ body {
 }
 
 .container .cover {
-    width: 32vw;
+    width: 34vw;
     background-color: #fff;
     border: 2px solid black;
     border-radius: 32px;
@@ -46,7 +46,7 @@ body {
 }
 
 hr {
-    width: 25vw;
+    width: 27vw;
     border: 1.9px solid black;
     margin-top: 10px;
 }
@@ -54,12 +54,41 @@ hr {
 .inner_content h1 {
     font-weight: bolder;
     font-size: 50px;
-    letter-spacing: 2px;
+    letter-spacing: 1px;
     margin-top: 20px;
     line-height: 52px;
+    font-weight: 400;
 }
 
 .inner_content p {
     margin-top: 30px;
 }
 
+.cards {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.cards .one_pack,
+.cards .two_pack,
+.cards .three_pack {
+    border: 2px solid black;
+    border-radius: 24px;
+    width: 110px;
+    height: 90px;
+    text-align: center;
+    background-color: rgb(241, 206, 241);
+    margin: 10px;
+    align-content: center;
+}
+
+.cards img {
+    width: 50px;
+    transform: skewX(4deg);
+}
+
+.cards h4 {
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: 600;
+    font-size: 14px;
+}
