@@ -174,14 +174,12 @@ hr {
 .btn_img {
     display: grid;
     grid-template-columns: repeat(2, 1fr);
-    gap: 50px;
+    margin: auto;
     text-align: center;
-    align-content: center;
-}
-
-.btn_img .grogginess,
-.btn_img .jet_lag {
-    margin-top: -30px;
+    font-size: 13px;
+    column-gap: 130px;
+    row-gap: 20px;
+    list-style: none;
 }
 
 .btn_img img {
